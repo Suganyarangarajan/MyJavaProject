@@ -9,6 +9,7 @@ public class ThreadEg implements Runnable
 		    Thread thread = new Thread(obj);
 		    thread.start(); //github integration
 		    System.out.println("This code is outside of the thread");
+		    System.out.println("Integration seccussful for github");
 		  }
 		  public void run() 
 		  {
