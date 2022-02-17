@@ -7,6 +7,7 @@ public class HospitalDetails {
     int patientId = 123;
     String patientName = "ABC";
     int age = 30;
+    System.out.println("patient details goes here");
     System.out.println("Patient ID is  "+patientId);
     System.out.println("Patient Name is  "+patientName);
     System.out.println("Patient Age is  "+age);
