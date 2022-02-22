@@ -12,6 +12,7 @@ public class Exceptionhandling {
 		catch(ArithmeticException e)
 		{
 			System.out.println("Exception handling in catch block");
+			System.out.println("Exceptions will be catched here");
 			System.out.println(e);
 		}
 		finally
